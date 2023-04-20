@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="converter">
+      <h1>Unit Converter</h1>
+      <form>
+        <div class="form-row">
+          <label for="from">From:</label>
+          <input type="number" id="from" placeholder="Enter value">
+          <select id="fromUnit">
+            <option value="meters">Meters</option>
+            <option value="feet">Feet</option>
+            <option value="inches">Inches</option>
+            <option value="kilometers">Kilometers</option>
+            <option value="grams">Grams</option>
+            <option value="kilograms">Kilograms</option>
+            <option value="miles">Miles</option>
+          </select>
+        </div>
+        <div class="form-row">
+          <label for="to">To:</label>
+          <input type="number" id="to" placeholder="Result" disabled>
+          <select id="toUnit">
+            <option value="meters">Meters</option>
+            <option value="feet">Feet</option>
+            <option value="inches">Inches</option>
+            <option value="kilometers">Kilometers</option>
+            <option value="grams">Grams</option>
+            <option value="kilograms">Kilograms</option>
+            <option value="miles">Miles</option>
+          </select>
+        </div>
+        <br>
+        <button type="button" onclick="convert()">Convert</button>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
