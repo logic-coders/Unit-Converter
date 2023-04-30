@@ -11,8 +11,9 @@ A simple web-based unit converter that allows users to convert various units of 
 
 ## Demo
 
-You can view a live demo of the website [here](https://your-demo-url.com).
-![unit converter ](https://user-images.githubusercontent.com/81713226/233337768-afb0b22d-ae2d-45ed-bd36-16e5ee38a28e.png)
+You can view a live demo of the website [here](http://127.0.0.1:5500/Code%20Clause/Unit%20Converter/index.html).
+![unit_converter-02](https://user-images.githubusercontent.com/81713226/235360792-3e7595c9-756d-4bdf-8463-4da6c29f77cb.jpeg)
+
 
 ## Getting Started
 
